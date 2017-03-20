@@ -25,3 +25,10 @@ alias aptp='sudo apt-get purge'
 alias aptu='sudo apt-get update'
 alias aptgr='sudo apt-get upgrade'
 
+# This function creates and CDs into a directory, whose name you pass it 
+# as first argument
+take () {
+    # The $1 refers to any first argument passed
+    mkdir $1
+    cd $1
+}
