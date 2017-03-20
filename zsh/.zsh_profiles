@@ -1,0 +1,28 @@
+#!/bin/zsh
+
+###########
+# ALIASES #
+###########
+alias "c=xclip"
+alias "v=xclip -o"
+alias 
+
+# List profiles
+alias ll='ls -alhF'
+alias la='ls -A'
+alias lf='ls -CF'
+alias l='ls -la'
+
+alias topcommands='history | cut -c 8-1000 | sort | uniq -c | sort -nr | less'
+
+alias ea='vim ~/bin/dotfiles/bash/.bash_aliases; source ~/bin/dotfiles/bash/.bash_aliases;'
+alias ez='vim ~/.zshrc; source ~/.zshrc'	
+
+
+# Aptitude aliases
+alias aptg='sudo apt-get install'
+alias aptr='sudo apt-get remove'
+alias aptp='sudo apt-get purge'
+alias aptu='sudo apt-get update'
+alias aptgr='sudo apt-get upgrade'
+
