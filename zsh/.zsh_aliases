@@ -3,8 +3,8 @@
 ###########
 # ALIASES #
 ###########
-alias "c=xclip"
-alias "v=xclip -o"
+alias c='xclip'
+alias v='xclip -o'
 
 # List profiles
 alias ll='ls -alhF'
