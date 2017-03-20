@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-source '~/bin/dotfiles/zsh/.zsh_profiles'
+source '~/bin/dotfiles/zsh/.zsh_aliases'

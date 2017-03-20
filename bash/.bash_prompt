@@ -1,1 +1,13 @@
 # PROMPT CONFIGURATIONS
+
+
+# My Custom Settings
+# These are the variables you can use in your PS1 Terminal config
+reset=$(tput sgr0);
+bold=$(tput bold)
+pinkish=$(tput setaf 204); # 204
+blueish=$(tput setaf 120); # 117
+yellow=$(tput setaf 227);
+# Terminal Config Line
+PS1="${yellow}[\t] ${reset}${blueish}${bold}[\W]\n${reset} ${pinkish}λ ${reset}";
+export PS1;
