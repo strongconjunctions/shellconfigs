@@ -5,7 +5,6 @@
 ###########
 alias "c=xclip"
 alias "v=xclip -o"
-alias 
 
 # List profiles
 alias ll='ls -alhF'
