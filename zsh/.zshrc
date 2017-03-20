@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-source '~/bin/dotfiles/zsh/.zsh_aliases'
+source '/home/momus/bin/dotfiles/zsh/.zsh_aliases'
