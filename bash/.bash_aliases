@@ -31,9 +31,9 @@ alias aptgr='sudo apt-get upgrade'
 
 
 
-# The 'take' function creates a directory, and 
+# This function creates a directory, and 
 # cds into it after creation.
-take () {
+mkcd () {
     # The $1 refers to any first argument passed
     mkdir $1
     cd $1
