@@ -1,3 +1,4 @@
 # ENVIRONMENT
 
-export PATH="~/bin:$PATH"
+export PATH="/home/momus/bin:$PATH"
+export PATH="/home/momus/bin/dotfiles/bash:$PATH"
