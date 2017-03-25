@@ -15,6 +15,13 @@ alias brc='vim ~/.bashrc; source ~/.bashrc;'
 alias topcommands='history | cut -c 8-1000 | sort | uniq -c | sort -nr | less'
 
 
+# Elinks
+alias wiki='elinks https://wikipedia.org'
+
+
+# Weather Report (for London, but you can change to any city)
+alias weather='curl -4 wttr.in/London'
+
 
 # ls aliases
 alias ll='ls -alhF'
