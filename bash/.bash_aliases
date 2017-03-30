@@ -1,5 +1,13 @@
 # ALIASES
 
+# Clipboard aliases
+alias c='xclip'
+alias v='xclip -o'
+
+# HTML Clipboards
+alias chtml='cat /home/momus/bin/expanding-texts/html | xclip -selection clipboard'
+
+
 # This is a meta alias that allows you to open this file in Vim, edit it, and 
 # then immediately source it.
 alias ea='vim ~/bin/dotfiles/bash/.bash_aliases; source ~/bin/dotfiles/bash/.bash_aliases;'
