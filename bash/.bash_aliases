@@ -7,6 +7,8 @@ alias v='xclip -o'
 # HTML Clipboards
 alias chtml='cat /home/momus/bin/expanding-texts/html | xclip -selection clipboard'
 
+# Nautilus command
+alias open='nautilus'
 
 # This is a meta alias that allows you to open this file in Vim, edit it, and 
 # then immediately source it.
