@@ -1,4 +1,4 @@
-export PATH="/home/momus/bin:$PATH"
-export PATH="/home/momus/bin/dotfiles/bash:$PATH"
-export PATH="/home/momus/bin/shellscripts:$PATH"
-export PATH="/home/momus/bin/c_scripts:$PATH"
+export PATH="~/bin:$PATH"
+export PATH="~/bin/dotfiles/bash:$PATH"
+export PATH="~/bin/shellscripts:$PATH"
+export PATH="~/bin/c_scripts:$PATH"

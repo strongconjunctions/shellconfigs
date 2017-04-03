@@ -5,7 +5,7 @@ alias c='xclip'
 alias v='xclip -o'
 
 # HTML Clipboards
-alias chtml='cat /home/momus/bin/expanding-texts/html | xclip -selection clipboard'
+alias chtml='cat ~/bin/expanding-texts/html | xclip -selection clipboard'
 
 # Nautilus command
 alias open='nautilus'
