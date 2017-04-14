@@ -24,7 +24,6 @@ alias brc='vim ~/.bashrc; source ~/.bashrc;'
 # of each command.
 alias topcommands='history | cut -c 8-1000 | sort | uniq -c | sort -nr | less'
 
-
 # Elinks
 alias wiki='elinks https://wikipedia.org'
 
@@ -47,6 +46,9 @@ alias aptu='sudo apt-get update'
 alias aptgr='sudo apt-get upgrade'
 
 
+#############
+# FUNCTIONS #
+#############
 
 # This function creates a directory, and 
 # cds into it after creation.
@@ -73,4 +75,17 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+
+# This function creates an HTML boilerplate in the directory 
+# that you provide to this function as an arg
+    function newsite() {
+	if [ ! -d $1 ]  # checks if the dir doesn't already exist
+	    then
+                cp -r ~/DEV/BOILERPLATES/html5-boilerplate/ $1
+	        open $1
+            else
+                echo "Please choose a different name for this project"
+        fi
+    }
 

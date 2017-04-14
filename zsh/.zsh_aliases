@@ -31,7 +31,6 @@ alias wiki='elinks https://wikipedia.org'
 # Weather Report (for London, but you can change to any city)
 alias weather='curl -4 wttr.in/London'
 
-
 # Aptitude aliases
 alias aptg='sudo apt-get install'
 alias aptr='sudo apt-get remove'
