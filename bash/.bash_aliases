@@ -45,6 +45,10 @@ alias aptp='sudo apt-get purge'
 alias aptu='sudo apt-get update'
 alias aptgr='sudo apt-get upgrade'
 
+# Raspberry Pi SSH Alias
+alias pishell='. $HOME/bin/ssh/pishell'
+
+
 
 #############
 # FUNCTIONS #
